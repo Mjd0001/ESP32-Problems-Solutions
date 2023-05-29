@@ -1,3 +1,4 @@
+
 # ESP32-Problems-Solutions
 عدد من المشاكل التي واجهتني أثناء استخدام ESP32 والحلول التي نجحت معي
 هذا هو البورد الذي أستخدمه
@@ -5,6 +6,21 @@
 Board : ESP-WROOM-32 <br>
 IDE name: Arduino IDE 2.1.0 <br>
 
+---
+## ESP32 installation
+لتشغيل البورد لأول مره اتبع الخطوات التالية:
+
+Steps to Start Use ESP32:
+1. Download Arduino IDE :https://www.arduino.cc/en/software
+2.	Open Arduino IDE => File => Preferences => Paste this in "Additional Boards Manager URLs: https://dl.espressif.com/dl/package_esp32_index.json
+3.	Tools => Board => Boards Manager => search "ESP32" then Install it.
+4.	Connect ESP32 to the computer.
+5.	Choose The Board: Tools => Board => ESP32 Arduino => WEMOS D1 MINI ESP32.
+6.	To Test The ESP32: File => Examples => Basics => Blink 
+7.	Upload the code
+8.	Then the LED in the ESP32 will Blink, that's mean it's work well. 
+
+--- 
 
 ## The Problems
 ### Unable to upload anything to the board
@@ -44,6 +60,7 @@ Failed uploading: uploading error: exit status 2
 في حالتي قمت بازالة pin 2 وتم رفع الكود بنجاح و تم حل المشكلة. <br>
 لتفاصيل أكثر: https://github.com/espressif/arduino-esp32/issues/1497
 
+---
 ### Compilation error SD.h
 عند  التحقق من الكود أو محاولة رفعه يظهر هذا الخطأ: <br>
 ```
@@ -64,7 +81,7 @@ Click the OK button.
 Scroll down through the list of boards platforms until you see the "esp32 by Espressif Systems" entry. Hover the mouse pointer over that entry.
 You will now see a version menu. Make sure "2.0.5" is shown as selected in the menu.
 5. You will also see an "UPDATE" or "INSTALL" button at the bottom of the entry. Click the button.
-6. Wait for the update to finish.
+6. Wait for the update to finish.<br>
 اذا قمت بتنفيذ هذه الخطوات سيتم رفع الكود بنجاح ان شاء الله <br>
 لتفاصيل أكثر حول المشكلة وأسبابها : https://forum.arduino.cc/t/compilation-error-arduino-2-0-sd-h/1045826/2
 
