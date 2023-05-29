@@ -41,6 +41,7 @@ View => show hidden devices
 <br> 
 <br>
 <br>
+---
 **المشكلة 2** <br>
 عدم القدرة على رفع اي كود للبورد رغم اختيار ال Port الصحيح و اسم البورد الصحيح، جربت على عدد من البوردات الاخرى وكان يعمل جيداً <br>
 رسالة الخطأ:
@@ -82,6 +83,8 @@ Scroll down through the list of boards platforms until you see the "esp32 by Esp
 You will now see a version menu. Make sure "2.0.5" is shown as selected in the menu.
 5. You will also see an "UPDATE" or "INSTALL" button at the bottom of the entry. Click the button.
 6. Wait for the update to finish.<br>
+
+<br>
 اذا قمت بتنفيذ هذه الخطوات سيتم رفع الكود بنجاح ان شاء الله <br>
 لتفاصيل أكثر حول المشكلة وأسبابها : https://forum.arduino.cc/t/compilation-error-arduino-2-0-sd-h/1045826/2
 
