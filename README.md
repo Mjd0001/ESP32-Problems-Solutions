@@ -20,7 +20,7 @@ View => show hidden devices
 ![image](https://github.com/Mjd0001/ESP32-Problems-Solutions/assets/105239889/d942c1e0-ada2-4ffd-93a8-fbe148b40052)
 
 اذا عندك هالمشكلة
-حمل CP210x من هالرابط https://t.co/BstuNeHBGA 
+حمل CP210x من هالرابط https://t.co/BstuNeHBGA <br>
 الفيديو يوضح طريقة التنصيب: https://twitter.com/star_20811/status/1659320063772573696?s=20
 ثم جرب توصل البورد وترفع الكود وراح يشتغل ان شاء الله
 
