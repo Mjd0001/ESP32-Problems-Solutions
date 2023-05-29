@@ -1,6 +1,6 @@
 
 # ESP32-Problems-Solutions
-عدد من المشاكل التي واجهتني أثناء استخدام ESP32 والحلول التي نجحت معي
+عدد من المشاكل التي واجهتني أثناء استخدام ESP32 والحلول التي نجحت معي <br>
 هذا هو البورد الذي أستخدمه
 ![image](https://github.com/Mjd0001/ESP32-Problems-Solutions/assets/105239889/e2d3f895-9387-4c66-b384-15b7accc5f5a)
 Board : ESP-WROOM-32 <br>
@@ -8,7 +8,7 @@ IDE name: Arduino IDE 2.1.0 <br>
 
 ---
 ## ESP32 installation
-لتشغيل البورد لأول مره اتبع الخطوات التالية:
+لتشغيل البورد لأول مره اتبع الخطوات التالية: <br>
 
 Steps to Start Use ESP32:
 1. Download Arduino IDE :https://www.arduino.cc/en/software
@@ -58,7 +58,7 @@ Failed uploading: uploading error: exit status 2
 
 **الحل** <br>
 بعض الـ Pins تعيق عملية رفع الكود، لست مختص ولا أعرف لماذا. <br>
-في حالتي قمت بازالة pin 2 وتم رفع الكود بنجاح و تم حل المشكلة. <br>
+في حالتي قمت بازالة الاسلاك المتصلة بـ pin 2 وتم رفع الكود بنجاح و تم حل المشكلة. <br>
 لتفاصيل أكثر: https://github.com/espressif/arduino-esp32/issues/1497
 
 ---
